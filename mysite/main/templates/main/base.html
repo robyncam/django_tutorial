@@ -1,6 +1,23 @@
 <!doctype html>
 <html>
 <head>
+      <div
+    class="p-5 text-center bg-image"
+    style="
+      background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210709/pngtree-abstract-backgrouns-set-grunge-texture-minimalistic-art-brush-strokes-style-design-image_739359.jpg');
+      height: 200px;
+    "
+  >
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Robyn's Site</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
     <style type="text/css">
         .sidenav {
             height:100%;
@@ -42,14 +59,14 @@
 </head>
 <body>
     <div class="sidenav">
-        <a href="/home"> Home </a>
-        <a href="/create"> Create </a>
-        <a href="/6"> Views </a>
+        <a href="/"> Home </a>
+        <a href="/create"> Create List </a>
+        <a href="/6"> View Lists </a>
     </div>
     <div id="content", name="content", class ="main">
         <div class="row justify-content-center">
             <div class="col-8">
-                <h1 class="mt-2">My Site</h1>
+                <h1 class="mt-2">Robyn's To Do List Site</h1>
                 <hr class="mt-0 mb-4">
                 {% block content %}
                 {% endblock %}
