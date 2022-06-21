@@ -3,6 +3,42 @@
 Home
 {% endblock%}
 
+
 {% block content %}
-<h1>Home Page</h1>
-{% endblock%}
+<div class="container">
+  <div class="wrap">
+    <span class="text -clone">
+       Welcome to Robyn's Homepage. This website is used to create to do lists so that you can stay on top of everything.
+    </span>
+
+  </div>
+</div>
+
+<style>
+.-clone {
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+// try applying this class
+.-slice {
+  -webkit-box-decoration-break: slice;
+  box-decoration-break: slice;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 2em;
+  background-image: linear-gradient(-144deg, #CE7D8D 0%, #FABDC9 100%);
+  border-radius: 2px;
+  padding: 4px 18px;
+  box-sizing: border-box;
+}
+
+.wrap {
+  max-width: 320px;
+  margin: 1em auto;
+}
+</style>
+
+{% endblock %}
